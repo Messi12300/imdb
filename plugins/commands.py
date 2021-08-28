@@ -195,8 +195,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/Mo_Tech_YT'),
-            InlineKeyboardButton('Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('Update Channel', url='https://t.me/newmoviesottrelease'),
+            InlineKeyboardButton('Group', url=f'https://t.me/malayalammoviesdownloader')
         ]
         ]
-    await message.reply(text=f"<b>Developer : <a href='https://t.me/newmoviesottrelease'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/newmoviesottrelease'>Click here</a>\nUpdate Channel : <a href='https://t.me/newmoviesottrelease'>Mallu Cinemas</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text=f"<b>Developer : <a href='https://t.me/newmoviesottrelease'>Mallu Cinemas</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/newmoviesottrelease'>Click here</a>\nUpdate Channel : <a href='https://t.me/newmoviesottrelease'>Mallu Cinemas</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
